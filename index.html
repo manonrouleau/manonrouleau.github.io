@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HOME</title>
+<meta name="description">
+<meta name="author">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<!-- Stylesheet
+    ================================================== -->
+
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="icon" type="logo/png" href="img/Logo.png" />
+    
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="text-center" id="home">
+  <div class="intro-text">
+    <h1 class="wow fadeInDown"><strong>Manon Rouleau</strong></h1>
+    <a href="cv/cv.pdf" target="_blank" class="btn btn-default2 btn-custom2 btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Découvrir mon CV</a> 
+    <br>
+        
+</div>
+</header>
+    
+    <!-- Navigation
+    ==========================================-->
+    <nav id="menu" class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+        <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="index.html"><strong>Manon Rouleau</strong></a>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="js-scrollTo">Accueil</a></li>
+        <li><a href="#about-section" class="js-scrollTo">A propos</a></li>
+        <li><a href="#works-section" class="js-scrollTo">Portfolio</a></li>
+        <li><a href="#contact-section" class="js-scrollTo">Contact</a></li>
+      </ul>
+    </div> 
+  </div> 
+</nav>
+
+<!-- About Section -->
+<div id="about-section">
+  <div class="container">
+    <div class="section-title text-center wow fadeInDown">
+      <h2><strong>A propos</strong></h2>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 photo"> <img src="img/pp.png" class="photo"></div>
+      <div class="col-md-6 info">
+          <h4>Qui suis-je?</h4>
+          <p>Manon Rouleau, étudiante à l'IESA Multimédia en classe préparatoire au master "Expert en stratégie digitale".</p>
+          <div class="space"></div>
+          <h4>Qu'est-ce que je fais ?</h4>
+          <p>Je poursuis des études dans le domaine du multimédia dans l'optique de me diriger vers le Webmarketing et le Community Management qui me passionne.</p>
+          <div class="space"></div><div class="list-style">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6 col-xs-12">
+                <ul>
+                  <li>Marketing</li>
+                  <li>Management</li>
+                  <li>Réseaux sociaux</li>
+                  <li>Economie-Droit</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-sm-6 col-xs-12">
+                <ul>
+                  <li>Illustrator</li>
+                  <li>Indesign</li>
+                  <li>Photoshop</li>
+                  <li>Webdesign</li>
+                </ul>
+              </div>
+            </div>
+          </div>     
+      </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Portfolio Section -->
+<div id="works-section" class="text-center">
+  <div class="container"> <!-- Container -->
+    <div class="section-title wow fadeInDown">
+      <h2><strong>Portfolio</strong></h2>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div class="categories">
+     
+<div class="button-group filters-button-group">
+      <ul class="cat type">
+            <a class="btn btn-default2 btn-custom2 btn-lg page-scroll wow fadeInUp active" onclick="filterAll();">Tous</a>
+            <a class="btn btn-default2 btn-custom2 btn-lg page-scroll wow fadeInUp" onclick="filterDesign();">Design</a>
+            <a class="btn btn-default2 btn-custom2 btn-lg page-scroll wow fadeInUp" onclick="filterWeb();">Web</a>
+            <a class="btn btn-default2 btn-custom2 btn-lg page-scroll wow fadeInUp" onclick="filterPhoto();">Photo</a>
+      </ul>
+</div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items grid">
+        <div class="col-sm-6 col-md-3 col-lg-3 design portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".design" data-wow-delay="200ms">
+            <div class="hover-bg"> <a href="img/portfolio/fp.png" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Faire part de naissance</h4>
+                Design
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/fpplus.png" class="img-responsive" alt="Logo personnel"> </a>  </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 design portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".design" data-wow-delay="400ms">
+            <div class="hover-bg"> <a href="img/portfolio/hibou.png" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Chouette</h4>
+                Design
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/hibouplus.png" class="img-responsive" alt="Chouette"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 photo portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".photo" data-wow-delay="800ms">
+            <div class="hover-bg"> <a href="img/portfolio/shoes.jpg" class="portfolio-link">
+              <div class="hover-text">
+                <h4>OOTD</h4>
+                Photo
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/shoes.jpg" class="img-responsive" alt="OOTD"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 design portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".design" data-wow-delay="600ms">
+            <div class="hover-bg"> <a href="img/portfolio/cerf.png" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Cerf</h4>
+               Design
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/cerf.png" class="img-responsive" alt="Cerf"> </a> </div>
+          </div>
+        </div>
+        <!-- <div class="col-sm-6 col-md-3 col-lg-3 web portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".web" data-wow-delay="1000ms">
+            <div class="hover-bg"> <a href="img/portfolio/web.jpg" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Mock-Up</h4>
+                Web Design
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/webplus.jpg" class="img-responsive" alt="Mock-up"> </a> </div>
+          </div>
+        </div> -->
+        <!-- <div class="col-sm-6 col-md-3 col-lg-3 photo portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".photo" data-wow-delay="1200ms">
+            <div class="hover-bg"> <a href="img/portfolio/etoile.jpg" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Danseuses</h4>
+                Photo
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/etoileplus.jpg" class="img-responsive" alt="Danseuses"> </a> </div>
+          </div>
+        </div> -->
+          
+        <div class="col-sm-6 col-md-3 col-lg-3 design portfolioitem">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".design" data-wow-delay="1400ms">
+            <div class="hover-bg"> <a href="img/portfolio/rapace.png" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Rapace</h4>
+                Design
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/rapace.png" class="img-responsive" alt="Rapace"> </a> </div>
+          </div>
+        </div>
+          
+        <!-- <div class="col-sm-6 col-md-3 col-lg-3 web portfolioitem ">
+          <div class="portfolio-item wow fadeInUp" data-option-value=".web" data-wow-delay="1600ms">
+            <div class="hover-bg"> <a href="img/portfolio/web2.jpg" class="portfolio-link">
+              <div class="hover-text">
+                <h4>Mock-Up 2</h4>
+                Web Design
+                <div class="clearfix"></div>
+                </div>
+              <img src="img/portfolio/web2plus.jpg" class="img-responsive" alt="Mock-up"> </a> </div>
+          </div>
+        </div> -->
+          
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+<!-- Contact Section -->
+<div id="contact-section" class="text-center">
+  <div class="container">
+    <div class="section-title">
+      <h2><strong>Contact</strong></h2>
+      <hr>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i> 
+        <p><a href="mailto:man.rouleau@gmail.com">man.rouleau@gmail.com</a></p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <p>06 60 38 21 54</p>
+      </div>
+      <div class="col-md-4">
+          <li><a href="https://fr.linkedin.com/in/manon-rouleau-53815310b"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <p>Linkedin</p>
+      </div>
+        
+    <!--  <div class="col-md-4">
+          <li><a href="https://twitter.com/ManRouleau"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <p>Twitter</p>
+      </div> -->
+        
+    </div>
+  </div>
+
+    
+  <!-- call bootstrap -->
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <hr>
+          </div>
+      </div>
+  </div>
+  
+  
+<!-- CONTENT -->
+     <div class="text-center">
+        <div class="container">
+            <form action="mailto:man.rouleau@gmail.com" method="post">
+              <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                  <div class="form-group">
+                      <label for="inputname">Votre nom</label>
+                          <input type="text" name="name" class="form-control" id="inputname" value="Inscrire votre nom">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                      <label for="inputemail">Votre email</label>
+                      <input type="email" name="email" class="form-control" id="inputemail" value="Inscrire votre email">
+                  </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="form-group">
+                      <label for="inputmessage">Votre message</label>
+                      <textarea id="inputmessage" rows="5" name="message" class="form-control">Inscrire votre message</textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                      <button type='submit' class='btn btn-primary btn-envoyer'>Envoyer</button>
+                </div>   
+            </div>
+          </form>
+        </div>
+    </div>
+</div> 
+<!-- BACK TO TOP -->
+<div class="backtotop">
+  <button href="#0" class="cd-top"></button>
+</div>
+
+<!-- Footer -->
+  
+   <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <p>Copyright © Manon Rouleau - 2016</p>
+              </div>
+          </div>
+      </div>
+   </footer>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
